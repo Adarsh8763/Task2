@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: mera_font;
+    src: url(Miracle\ Christmas.ttf);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Gemini_Generated_Image_93amqm93amqm93am.png);
+    background-size: cover;
+    font-family: mera_font;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+    color: red;
+}
+button{
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family: arial;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: radial-gradient(red, yellow);
+    color: yellow;
+    cursor: pointer;
+}
